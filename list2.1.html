@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>list2</title>
+</head>
+
+<body>
+    <form action="/getInfo" method="post">
+        <div>user：<input type="text" name="username" placeholder="请输入用户名" autofocus /> </div>
+        <div>email:<input type="email" name="email" /></div>
+        <div>pwd：&nbsp;&nbsp;&nbsp;<input type="password" name="password" /></div>
+        <div>sex：<input type="radio" name="sex" value="male" />男<input type="radio" name="sex" valaue="female" />女</div>
+        <div>age：<input type="number" name="age" min="20" max="50" /></div>
+        <div>range:<input type="range" min="0" max="10" /></div>
+        <div>skill：
+            <input type="checkbox" name="skill" value="HTML" />HTML
+            <input type="checkbox" name="skill" value="CSS" />CSS
+            <input type="checkbox" name="skill" value="JavaScript" />JavaScript
+        </div>
+        <div>date:<input type="date" name="date" /></div>
+        <div>time:<input type="time" name="time" /></div>
+        <div>datetime:<input type="datetime" name="datetime" /></div>
+        <div>month:<input type="month" /></div>
+        <div>week:<input type="week" name="week" /></div>
+        <div>datetime-local<input type="datetime-local" name="datetime-local" /></div>
+        <div>search:<input type="search" name="search" /></div>
+        <div>color:<input type="color" name="color" /></div>
+        <div>url:<input type="url" name="url" /></div>
+        <div>list:<input list="hobby" />
+            <datalist id="hobby">
+                <option value="ski">
+                <option value="swim">
+            </datalist>
+        </div>
+        <div>doc:<input type="file" accept="image/png" /></div>
+        <div><input type="hidden" value="hidden" /></div>
+        <div>
+            <input type="submit" value="submit" />
+            <input type="reset" value="reset" />
+            <input type="button" value="button" />
+        </div>
+    </form>
+</body>
+
+</html>

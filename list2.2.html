@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>list2</title>
+</head>
+
+<body>
+    <form action="/getInfo">
+        <div></div>
+        <div>email:<input type="email" name="email" required autofocus/></div>
+        <div>number:<input type="number" name="number" min="0" max="100" step="2" /></div>
+        <div>
+            city:<input list="city" name="city"/>
+            <datalist id="city">
+                <option value="北京">
+                <option value="上海">
+                <option value="广州">
+                <option value="深圳">
+            </datalist>
+        </div>
+        <div><button type="submit" name="submit">submit</button></div>
+    </form>
+</body>
+
+</html>
