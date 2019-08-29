@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    body{
+      margin: 0
+    }
+    *{
+      box-sizing: border-box
+    }
+    .left {
+      float: left;
+      width: 100px;
+    }
+    .left a{
+      display: block
+    }
+    .right {
+      float: left;
+      width: calc(100% - 102px);
+      height: 100vh
+    }
+  </style>
+</head>
+
+<body>
+  <div class="left">
+    <a href="https://music.163.com/" target="iframe">网易云音乐</a>
+    <a href="https://y.qq.com/" target="iframe">QQ音乐</a>
+  </div>
+  <iframe name="iframe" src="http://www.baidu.com" frameborder="0" class="right"></iframe>
+</body>
+
+</html>
