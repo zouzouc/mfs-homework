@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0
+        }
+
+        .guide {
+            position: relative
+        }
+
+        .guide:hover {
+            color: seagreen
+        }
+
+        ul {
+            display: none;
+            list-style: none
+        }
+
+        .guide:hover ul {
+            display: block;
+            position: absolute;
+            top: 16px;
+            left: 0
+        }
+    </style>
+</head>
+
+<body>
+    <span class="guide">
+        导航1
+        <ul>
+            <li>1.1</li>
+            <li>2.1</li>
+            <li>3.1</li>
+        </ul>
+    </span>
+    <span class="guide">
+        导航2
+        <ul>
+            <li>2.1</li>
+            <li>2.2</li>
+            <li>2.3</li>
+        </ul>
+    </span>
+
+</body>
+
+</html>
