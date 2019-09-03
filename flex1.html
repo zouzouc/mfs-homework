@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            text-align: center;
+            flex-wrap: wrap;
+            flex-direction: column
+            /* align-content: space-between */
+        }
+        *{
+            padding:10px 0;
+        }
+.o{
+    order:-1;
+}
+        .middle {
+            display: flex;
+            text-align: center;
+            flex-wrap: wrap;
+            align-content: space-between
+        }
+.aside{
+    background: rgb(134, 134, 160);
+    height:30px;
+    width:200px
+}
+
+.main{
+background: rgb(120, 120, 167);
+flex-grow: 1;
+margin :0 10px;
+}
+        .top,
+        .bottom {
+            background: gray;
+            height: 30px;
+            flex-grow: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="top">头部</div>
+        <div class="middle">
+            <div class="main">主内容栏</div>
+            <div class="aside o">侧边栏1</div>
+            <div class="aside">侧边栏2</div>
+        </div>
+        <div class="bottom">底部</div>
+    </div>
+    
+</body>
+
+</html>
