@@ -1,0 +1,269 @@
+  body {
+    margin: 0;
+    background: #ebebeb
+}
+
+.header {
+    background-image: url(https://www.golaravel.com/assets/images/header-bg.jpg)
+}
+
+.head-main {
+    padding: 60px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-main h1 {
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px
+}
+
+.headlogo {
+    margin-bottom: 2rem;
+    height: 6rem
+}
+
+.nav {
+    background: #fff;
+    font-size: 14px;
+    line-height: 24.5px;
+    text-align: center;
+    border-bottom: 2px solid #e1e1e1;
+}
+
+.nav .link {
+    text-decoration-line: none;
+    color: #505050;
+    padding: 0 21px;
+    line-height: 4em;
+}
+
+.nav .link:nth-child(3) {
+    font-weight: bold
+}
+
+.nav .link:hover {
+    color: #f4645f
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.content {
+    width: 60%;
+    margin: 30px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.article {
+    margin: 0 10px;
+    padding:20px 30px;
+    margin: 0 20px 30px 0;
+    background: #fff;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.article *{
+    padding-bottom:15px
+}
+
+.article img{
+    width:100%
+}
+.article .authordate{
+    color:#959595;
+    font-size: 14px;
+}
+.article .introduction{
+    color:#444443;
+    font-size: 18px;
+    line-height: 29.16px
+}
+.article .link{
+    text-decoration-line: none;
+    color:#f4645f
+}
+.article .title{
+    padding-top:10px;
+    color:#303030;
+    font-size:28px;
+    font-weight:400
+}
+.article .morebtn{
+    padding:5px 10px;
+    background: #f4645f;
+    color:#fff;
+    text-align:center;
+    align-self: flex-start;
+    border-radius: 3px;
+    position: relative;
+}
+.article .morebtn:hover{
+    background: #111
+}
+
+.article .line{
+    margin:20px 0;
+    border-bottom:1px solid #ebebeb;
+    width:100%;
+}
+
+.docs {
+    width: 25%;
+    margin: 30px 20px;
+    padding: 20px 20px;
+    background: #fff;
+}
+
+.docs .title {
+    width: 80%;
+    font-size: 1.5em;
+    font-weight: 400;
+    color: #303030;
+    border-bottom: 1px solid #ebebeb;
+    margin-top: 0;
+    padding-bottom: 7px;
+    margin-bottom: 21px;
+    position: relative;
+}
+
+.docs .title:after {
+    content: "";
+    width: 90px;
+    height: 1px;
+    background: #f4645f;
+    position: absolute;
+    bottom: -1px;
+    left:0
+}
+
+.docs .link {
+    display:block;
+    text-decoration-line: none;
+    margin-top: 5px;
+    padding: 7px 14px;
+    text-align: center;
+    border: 1px solid #f4645f;
+    background: #f4645f;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.docs .link:hover {
+    background: #000;
+    border: 1px solid #000
+}
+
+.footer {
+  
+    background: #202020;
+    margin-top: 30px; 
+    border-bottom: 1px solid #303030;
+    display: flex;
+    justify-content: space-around
+}
+
+.column{
+    width:30%;
+    padding:0 45px;
+    margin:30px 30px;
+}
+
+.footer .link{
+    text-decoration-line: none;
+    color:#959595;
+}
+.column .title{
+    color:#fff;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 23.1px;
+    margin-bottom: 21px;
+    margin-block-end: 21px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #303030;
+    position: relative;
+}
+.column .title:after{
+    content: " ";
+    width:30%;
+    border-bottom: 1px solid #f4645f;
+    position: absolute;
+    top:30px;
+    left:0px
+}
+ .post{
+    color:#959595;;
+    margin-bottom: 14px;
+    padding-bottom: 14px;
+    border-bottom: 1px dashed #303030; 
+    font-size: 14px;
+    line-height: 24.5px;
+}
+.post .date{
+    color:#505050;
+}
+.post .link:hover{
+    color:#f4645f
+}
+
+.column .more{
+    margin: 0 7px 7px 0;
+    padding:3px 7px;
+    font-size: 14px;
+    line-height: 21px;
+    border:1px solid #303030;
+
+}
+.column .more:hover{
+  background: #f4645f;
+  border:1px solid #f4645f;
+
+}
+.links .link{
+   
+    padding:2px  7px;
+    margin: 0 7px 7px 0; 
+    font-size:14px;
+    line-height: 1.5em;
+    color:#959595;
+    display: inline-block;
+    
+}
+.links hr{
+    border:0.5px dashed #303030;
+    margin:14px 0;
+}
+.links .link:hover{
+    background: #f4645f;
+    color:#fff
+}
+.copyright{
+    width: 100%;
+    font-size: 13px;
+    background: #111;
+    color: #555;
+    text-align: center;
+}
+.rightlink{
+    line-height:80px;
+}
+.rightlink .link{
+    text-decoration-line: none;
+    color: #555;
+}
+.rightlink .link:hover{
+    text-decoration-line: underline
+}
+  
